@@ -5,7 +5,7 @@ ThisBuild / scalafixDependencies += "com.github.liancheng" %% "organize-imports"
 ThisBuild / semanticdbEnabled                              := true
 ThisBuild / semanticdbVersion                              := scalafixSemanticdb.revision
 
-val catsEffect = "3.3.4"
+val catsEffect = "3.3.6"
 val cats       = "2.7.0"
 val logback    = "1.2.10"
 val scalaMock  = "5.2.0"
