@@ -1,0 +1,9 @@
+pull_request_rules:
+  - name: Automatic merge for passing scala-steward PRs
+    conditions:
+      - author=chadford
+      - head~=^update/.+$
+      - base=master
+    actions:
+      merge:
+        method: squash
