@@ -3,7 +3,7 @@ pull_request_rules:
     conditions:
       - author=chadford
       - head~=^update/.+$
-      - base=master
+      - base=main
     actions:
       merge:
         method: squash
