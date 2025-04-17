@@ -7,11 +7,11 @@ ThisBuild / scalafixDependencies += "com.github.liancheng" %% "organize-imports"
 ThisBuild / semanticdbEnabled                              := true
 ThisBuild / semanticdbVersion                              := scalafixSemanticdb.revision
 
-val catsEffect = "3.3.14"
+val catsEffect = "3.6.1"
 val cats       = "2.13.0"
 val logback    = "1.5.18"
 val scalaMock  = "7.3.0"
-val weaver     = "0.7.15"
+val weaver     = "0.8.4"
 
 lazy val root = (project in file("."))
   .settings(
