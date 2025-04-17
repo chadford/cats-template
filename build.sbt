@@ -1,5 +1,7 @@
-coverageMinimum       := 100
-coverageFailOnMinimum := true
+Global / onChangedBuildSource := ReloadOnSourceChanges
+
+coverageMinimumStmtTotal := 100
+coverageFailOnMinimum    := true
 
 ThisBuild / scalafixDependencies += "com.github.liancheng" %% "organize-imports" % "0.6.0"
 ThisBuild / semanticdbEnabled                              := true
@@ -16,7 +18,7 @@ lazy val root = (project in file("."))
     organization := "chadford",
     name         := "chadford",
     version      := "0.0.1-SNAPSHOT",
-    scalaVersion := "2.13.8",
+    scalaVersion := "2.13.16",
     libraryDependencies ++= Seq(
       "ch.qos.logback"       % "logback-classic"   % logback,
       "org.scalamock"       %% "scalamock"         % scalaMock % Test,
