@@ -10,7 +10,7 @@ ThisBuild / semanticdbVersion                              := scalafixSemanticdb
 val catsEffect = "3.6.3"
 val cats       = "2.13.0"
 val logback    = "1.5.18"
-val scalaMock  = "7.4.0"
+val scalaMock  = "7.4.1"
 val weaver     = "0.9.3"
 
 lazy val root = (project in file("."))
