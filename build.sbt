@@ -9,7 +9,7 @@ ThisBuild / semanticdbVersion                              := scalafixSemanticdb
 
 val catsEffect = "3.7.0"
 val cats       = "2.13.0"
-val logback    = "1.5.33"
+val logback    = "1.5.34"
 val scalaMock  = "7.5.5"
 val weaver     = "0.12.0"
 
